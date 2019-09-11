@@ -1,4 +1,4 @@
-repo_url = "file:///system/fdroid/calyx/repo/"
+repo_url = "file:///product/fdroid/repo/"
 repo_name = "CalyxOS Local Repository"
 repo_icon = "fdroid-icon.png"
 repo_description = """
