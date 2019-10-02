@@ -40,14 +40,6 @@
     }
   },
   {
-    "name": "DejaVuLocationService",
-   "baseUrl": "https://f-droid.org/repo/{ver}",
-    "version": {
-      "fdroid": "org.fitchfamily.android.dejavu",
-      "fingerprint": "43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB"
-    }
-  },
-  {
     "name": "DuckDuckGoPrivacyBrowser",
    "baseUrl": "https://f-droid.org/repo/{ver}",
     "version": {
@@ -64,26 +56,10 @@
     }
   },
   {
-    "name": "MozillaNlpBackend",
-    "baseUrl": "https://f-droid.org/repo/{ver}",
-    "version": {
-      "fdroid": "org.microg.nlp.backend.ichnaea",
-      "fingerprint": "43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB"
-    }
-  },
-  {
     "name": "MuPDFviewer",
     "baseUrl": "https://f-droid.org/repo/{ver}",
     "version": {
       "fdroid": "com.artifex.mupdf.viewer.app",
-      "fingerprint": "43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB"
-    }
-  },
-  {
-    "name": "NominatimNlpBackend",
-    "baseUrl": "https://f-droid.org/repo/{ver}",
-    "version": {
-      "fdroid": "org.microg.nlp.backend.nominatim",
       "fingerprint": "43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB"
     }
   },
