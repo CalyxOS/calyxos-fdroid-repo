@@ -137,10 +137,10 @@
   },
   {
     "name": "Orbot",
-    "baseUrl": "https://guardianproject.info/fdroid/repo/{ver}",
+    "baseUrl": "https://github.com/guardianproject/orbot/releases/download/{ver}/Orbot-{ver}-fullperm-arm64-v8a-release.apk",
     "version": {
-      "fdroid": "org.torproject.android",
-      "fingerprint": "B7C2EEFD8DAC7806AF67DFCD92EB18126BC08312A7F2D6F3862E46013C7A6135"
+      "url": "https://api.github.com/repos/guardianproject/orbot/releases/latest",
+      "json": "tag_name"
     }
   },
   {
