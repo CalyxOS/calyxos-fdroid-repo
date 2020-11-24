@@ -21,7 +21,7 @@ fdroid-repo:
   - cd fdroid
   - echo "keypass=\"$fdroid_keypass\"" >>config.py
   - echo "keystorepass=\"$fdroid_keystorepass\"" >>config.py
-  - fdroid update
+  - fdroid update --pretty
   - rm -rf archive
   - mkdir /fdroid && fdroid server update
   - rm -rf /fdroid/archive
