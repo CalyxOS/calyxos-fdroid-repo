@@ -137,7 +137,11 @@
   },
   {
     "name": "Orbot",
-    "baseUrl": "https://guardianproject.info/fdroid/repo/Orbot-16.3.3-RC-1-tor-0.4.3.6-fullperm-universal-release.apk"
+    "baseUrl": "https://guardianproject.info/fdroid/repo/{ver}",
+    "version": {
+      "fdroid": "org.torproject.android",
+      "fingerprint": "B7C2EEFD8DAC7806AF67DFCD92EB18126BC08312A7F2D6F3862E46013C7A6135"
+    }
   },
   {
     "name": "TorBrowser",
