@@ -5,8 +5,10 @@ License: GPL-3.0-only
 AuthorEmail: juam+scrambled@posteo.net
 SourceCode: https://gitlab.com/juanitobananas/scrambled-exif/tree/HEAD
 IssueTracker: https://gitlab.com/juanitobananas/scrambled-exif/issues
+Translation: https://www.transifex.com/juanitobananas/scrambled-exif/
 Changelog: https://gitlab.com/juanitobananas/scrambled-exif/blob/HEAD/CHANGELOG.md
-Bitcoin: 16DXeCxxKGvepYLehyHSr3M1nv1s1eUotZ
+Liberapay: juanitobananas
+Bitcoin: bc1qagv574q7k66nwmtef8gxmjge4ekvnjxfytxp5e
 
 AutoName: Scrambled Exif
 
@@ -182,7 +184,240 @@ Builds:
     gradle:
       - standard
 
+  - versionName: 1.4.0
+    versionCode: 27
+    commit: v1.4.0
+    subdir: app
+    submodules: true
+    gradle:
+      - standard
+
+  - versionName: 1.4.1
+    versionCode: 28
+    commit: v1.4.1
+    subdir: app
+    submodules: true
+    gradle:
+      - standard
+
+  - versionName: 1.4.2
+    versionCode: 29
+    commit: v1.4.2
+    subdir: app
+    submodules: true
+    gradle:
+      - standard
+
+  - versionName: 1.4.3
+    versionCode: 30
+    commit: v1.4.3
+    subdir: app
+    submodules: true
+    gradle:
+      - standard
+
+  - versionName: 1.4.4
+    versionCode: 31
+    commit: v1.4.4
+    subdir: app
+    submodules: true
+    gradle:
+      - standard
+
+  - versionName: 1.4.5
+    versionCode: 32
+    commit: v1.4.5
+    subdir: app
+    submodules: true
+    gradle:
+      - standard
+
+  - versionName: 1.4.6
+    versionCode: 33
+    commit: v1.4.6
+    subdir: app
+    submodules: true
+    gradle:
+      - standard
+
+  - versionName: 1.4.7
+    versionCode: 34
+    commit: v1.4.7
+    subdir: app
+    submodules: true
+    gradle:
+      - standard
+
+  - versionName: 1.5.0-beta
+    versionCode: 36
+    commit: v1.5.0-beta
+    subdir: app
+    submodules: true
+    gradle:
+      - standard
+
+  - versionName: 1.6.4
+    versionCode: 41
+    commit: v1.6.4
+    subdir: app
+    submodules: true
+    gradle:
+      - standard
+
+  - versionName: 1.6.6
+    versionCode: 43
+    commit: v1.6.6
+    subdir: app
+    submodules: true
+    gradle:
+      - standard
+
+  - versionName: 1.6.7
+    versionCode: 46
+    commit: v1.6.7
+    subdir: app
+    submodules: true
+    gradle:
+      - standard
+
+  - versionName: 1.6.8
+    versionCode: 47
+    commit: v1.6.8
+    subdir: app
+    submodules: true
+    gradle:
+      - standard
+
+  - versionName: 1.6.10
+    versionCode: 49
+    commit: v1.6.10
+    subdir: app
+    submodules: true
+    gradle:
+      - standard
+
+  - versionName: 1.6.11
+    versionCode: 50
+    commit: v1.6.11
+    subdir: app
+    submodules: true
+    gradle:
+      - standard
+
+  - versionName: 1.6.12
+    versionCode: 51
+    commit: v1.6.12
+    subdir: app
+    submodules: true
+    gradle:
+      - standard
+
+  - versionName: 1.6.13
+    versionCode: 52
+    commit: v1.6.13
+    subdir: app
+    submodules: true
+    gradle:
+      - standard
+
+  - versionName: 1.6.14
+    versionCode: 53
+    commit: v1.6.14
+    subdir: app
+    submodules: true
+    gradle:
+      - standard
+
+  - versionName: 1.6.15
+    versionCode: 54
+    commit: v1.6.15
+    subdir: app
+    submodules: true
+    gradle:
+      - standard
+
+  - versionName: 1.6.16
+    versionCode: 55
+    commit: v1.6.16
+    subdir: app
+    submodules: true
+    gradle:
+      - standard
+
+  - versionName: 1.6.17
+    versionCode: 56
+    commit: v1.6.17
+    subdir: app
+    submodules: true
+    gradle:
+      - standard
+
+  - versionName: 1.6.18
+    versionCode: 57
+    commit: v1.6.18
+    subdir: app
+    submodules: true
+    gradle:
+      - standard
+
+  - versionName: 1.6.19
+    versionCode: 58
+    commit: v1.6.19
+    subdir: app
+    submodules: true
+    gradle:
+      - standard
+
+  - versionName: 1.6.20
+    versionCode: 59
+    commit: v1.6.20
+    subdir: app
+    submodules: true
+    gradle:
+      - standard
+
+  - versionName: 1.6.21
+    versionCode: 60
+    commit: v1.6.21
+    subdir: app
+    submodules: true
+    gradle:
+      - standard
+
+  - versionName: 1.6.22
+    versionCode: 61
+    commit: v1.6.22
+    subdir: app
+    submodules: true
+    gradle:
+      - standard
+
+  - versionName: '1.7'
+    versionCode: 62
+    commit: v1.7
+    subdir: app
+    submodules: true
+    gradle:
+      - standard
+
+  - versionName: 1.7.1
+    versionCode: 63
+    commit: v1.7.1
+    subdir: app
+    submodules: true
+    gradle:
+      - standard
+
+  - versionName: 1.7.2
+    versionCode: 64
+    disable: fails to build https://gitlab.com/juanitobananas/scrambled-exif/-/issues/57
+    commit: v1.7.2
+    subdir: app
+    submodules: true
+    gradle:
+      - standard
+
 AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
-CurrentVersion: 1.3.6
-CurrentVersionCode: 26
+UpdateCheckMode: Tags ^v[0-9.]+$
+CurrentVersion: 1.7.2
+CurrentVersionCode: 64

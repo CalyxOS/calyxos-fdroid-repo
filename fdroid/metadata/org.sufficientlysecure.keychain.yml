@@ -2,6 +2,8 @@ Categories:
   - Security
   - Default
 License: GPL-3.0-or-later
+AuthorName: Dominik Schürmann
+AuthorWebSite: https://www.schuermann.eu/android/
 WebSite: https://www.openkeychain.org/
 SourceCode: https://github.com/open-keychain/open-keychain
 IssueTracker: https://github.com/open-keychain/open-keychain/issues
@@ -677,6 +679,144 @@ Builds:
       - extern/bouncycastle/core/src/test
       - OpenKeychain/src/test/resources/OpenPGP-Haskell/tests
 
+  - versionName: '5.3'
+    versionCode: 53004
+    commit: v5.3
+    subdir: OpenKeychain
+    submodules: true
+    gradle:
+      - fdroid
+    scanignore:
+      - extern/bouncycastle/core/src/test
+      - OpenKeychain/src/test/resources/OpenPGP-Haskell/tests
+
+  - versionName: '5.4'
+    versionCode: 54000
+    commit: v5.4
+    subdir: OpenKeychain
+    submodules: true
+    gradle:
+      - fdroid
+    scanignore:
+      - extern/bouncycastle/core/src/test
+      - OpenKeychain/src/test/resources/OpenPGP-Haskell/tests
+
+  - versionName: '5.5'
+    versionCode: 55000
+    commit: v5.5
+    subdir: OpenKeychain
+    submodules: true
+    gradle:
+      - fdroid
+    scanignore:
+      - extern/bouncycastle/core/src/test
+      - OpenKeychain/src/test/resources/OpenPGP-Haskell/tests
+
+  - versionName: 5.6.2
+    versionCode: 56200
+    commit: v5.6.2
+    subdir: OpenKeychain
+    submodules: true
+    gradle:
+      - fdroid
+    prebuild: echo 'org.gradle.jvmargs=-Xmx1g' >> ../gradle.properties
+    scandelete:
+      - extern/bouncycastle/libs
+      - extern/bouncycastle/test
+      - extern/bouncycastle/core/src/test
+      - extern/bouncycastle/pg/src/test
+      - OpenKeychain/src/test/resources/OpenPGP-Haskell/tests
+
+  - versionName: '5.7'
+    versionCode: 57000
+    commit: v5.7
+    subdir: OpenKeychain
+    submodules: true
+    gradle:
+      - fdroid
+    prebuild: echo -e '\norg.gradle.jvmargs=-Xmx1g' >> ../gradle.properties
+    scandelete:
+      - extern/bouncycastle/libs
+      - extern/bouncycastle/test
+      - extern/bouncycastle/core/src/test
+      - extern/bouncycastle/pg/src/test
+      - OpenKeychain/src/test/resources/OpenPGP-Haskell/tests
+
+  - versionName: 5.7.1
+    versionCode: 57100
+    commit: v5.7.1
+    subdir: OpenKeychain
+    submodules: true
+    gradle:
+      - fdroid
+    prebuild: echo -e '\norg.gradle.jvmargs=-Xmx1g' >> ../gradle.properties
+    scandelete:
+      - extern/bouncycastle/libs
+      - extern/bouncycastle/test
+      - extern/bouncycastle/core/src/test
+      - extern/bouncycastle/pg/src/test
+      - OpenKeychain/src/test/resources/OpenPGP-Haskell/tests
+
+  - versionName: 5.7.2
+    versionCode: 57200
+    commit: v5.7.2
+    subdir: OpenKeychain
+    submodules: true
+    gradle:
+      - fdroid
+    prebuild: echo -e '\norg.gradle.jvmargs=-Xmx1g' >> ../gradle.properties
+    scandelete:
+      - extern/bouncycastle/libs
+      - extern/bouncycastle/test
+      - extern/bouncycastle/core/src/test
+      - extern/bouncycastle/pg/src/test
+      - OpenKeychain/src/test/resources/OpenPGP-Haskell/tests
+
+  - versionName: 5.7.3
+    versionCode: 57300
+    commit: v5.7.3
+    subdir: OpenKeychain
+    submodules: true
+    gradle:
+      - fdroid
+    prebuild: echo -e '\norg.gradle.jvmargs=-Xmx1g' >> ../gradle.properties
+    scandelete:
+      - extern/bouncycastle/libs
+      - extern/bouncycastle/test
+      - extern/bouncycastle/core/src/test
+      - extern/bouncycastle/pg/src/test
+      - OpenKeychain/src/test/resources/OpenPGP-Haskell/tests
+
+  - versionName: 5.7.4
+    versionCode: 57400
+    commit: v5.7.4
+    subdir: OpenKeychain
+    submodules: true
+    gradle:
+      - fdroid
+    prebuild: echo -e '\norg.gradle.jvmargs=-Xmx1g' >> ../gradle.properties
+    scandelete:
+      - extern/bouncycastle/libs
+      - extern/bouncycastle/test
+      - extern/bouncycastle/core/src/test
+      - extern/bouncycastle/pg/src/test
+      - OpenKeychain/src/test/resources/OpenPGP-Haskell/tests
+
+  - versionName: 5.7.5
+    versionCode: 57500
+    commit: v5.7.5
+    subdir: OpenKeychain
+    submodules: true
+    gradle:
+      - fdroid
+    prebuild: echo -e '\norg.gradle.jvmargs=-Xmx1g' >> ../gradle.properties
+    scandelete:
+      - extern/bouncycastle/libs
+      - extern/bouncycastle/test
+      - extern/bouncycastle/core/src/test
+      - extern/bouncycastle/pg/src/test
+      - OpenKeychain/src/test/resources/OpenPGP-Haskell/tests
+
 MaintainerNotes: |-
     Summary and Description are maintained by upstream using fastlane in
     the source repo:
@@ -684,5 +824,5 @@ MaintainerNotes: |-
 
 AutoUpdateMode: Version v%v
 UpdateCheckMode: Tags ^v[0-9.]+$
-CurrentVersion: '5.2'
-CurrentVersionCode: 52009
+CurrentVersion: 5.7.5
+CurrentVersionCode: 57500

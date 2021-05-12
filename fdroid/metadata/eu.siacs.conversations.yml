@@ -4,67 +4,18 @@ Categories:
 License: GPL-3.0-only
 AuthorName: Daniel Gultsch
 WebSite: https://conversations.im/
-SourceCode: https://github.com/siacs/Conversations
-IssueTracker: https://github.com/siacs/Conversations/issues
+SourceCode: https://github.com/iNPUTmice/Conversations
+IssueTracker: https://github.com/iNPUTmice/Conversations/issues
 Translation: https://www.transifex.com/siacs/conversations/
-Changelog: https://github.com/siacs/Conversations/blob/HEAD/CHANGELOG.md
+Changelog: https://github.com/iNPUTmice/Conversations/blob/HEAD/CHANGELOG.md
 Donate: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CW3SYT3KG5PDL
 LiberapayID: '34225'
-Bitcoin: 1AeqNAcg85APAZj9BZfAjdFCC5zesqXp2B
+Bitcoin: 3KAD8vew6tPZDjiUJNnZ3YUoUxrCEVNwFL
 
 AutoName: Conversations
-Description: |-
-    Easy to use, reliable, battery friendly. With built-in support for images, group
-    chats and e2e encryption.
-
-    Design principles:
-
-    * Be as beautiful and easy to use as possible without sacrificing security or privacy
-    * Rely on existing, well established protocols
-    * Do not require a Google Account or specifically Google Cloud Messaging (GCM)
-    * Require as few permissions as possible
-
-    Features:
-
-    * End-to-end encryption with either [http://conversations.im/omemo/ OMEMO] or [http://openpgp.org/about/ OpenPGP]
-    * Sending and receiving images
-    * Intuitive UI that follows Android Design guidelines
-    * Pictures / Avatars for your Contacts
-    * Syncs with desktop client
-    * Conferences (with support for bookmarks)
-    * Address book integration
-    * Multiple accounts / unified inbox
-    * Very low impact on battery life
-
-    Conversations makes it very easy to create an account on the conversations.im
-    server. Using that server comes with an annual fee of 8 Euro after a 6 month
-    trial period. However Conversations will work with any other XMPP server as
-    well. A lot of XMPP servers are run by volunteers and are free of charge.
-
-    XMPP Features:
-
-    Conversations works with every XMPP server out there. However XMPP is an
-    extensible protocol. These extensions are standardized as well in so called
-    XEP’s. Conversations supports a couple of those to make the overall user
-    experience better. There is a chance that your current XMPP server does not
-    support these extensions. Therefore to get the most out of Conversations you
-    should consider either switching to an XMPP server that does or - even better -
-    run your own XMPP server for you and your friends.
-
-    These XEPs are - as of now:
-
-    * XEP-0065: SOCKS5 Bytestreams (or mod_proxy65). Will be used to transfer files if both parties are behind a firewall (NAT).
-    * XEP-0163: Personal Eventing Protocol for avatars
-    * XEP-0191: Blocking command lets you blacklist spammers or block contacts without removing them from your roster.
-    * XEP-0198: Stream Management allows XMPP to survive small network outages and changes of the underlying TCP connection.
-    * XEP-0280: Message Carbons which automatically syncs the messages you send to your desktop client and thus allows you to switch seamlessly from your mobile client to your desktop client and back within one conversation.
-    * XEP-0237: Roster Versioning mainly to save bandwidth on poor mobile connections
-    * XEP-0313: Message Archive Management synchronize message history with the server. Catch up with messages that were sent while Conversations was offline.
-    * XEP-0352: Client State Indication lets the server know whether or not Conversations is in the background. Allows the server to save bandwidth by withholding unimportant packages.
-    * XEP-0363: HTTP File Upload allows you to share files in conferences and with offline contacts. Requires an additional component on your server.
 
 RepoType: git
-Repo: https://github.com/siacs/Conversations
+Repo: https://github.com/iNPUTmice/Conversations.git
 
 Builds:
   - versionName: 0.1.3
@@ -1716,11 +1667,377 @@ Builds:
     prebuild: sed -i -e 's/targetSdkVersion 28/targetSdkVersion 25/' -e '/ExtraTranslation/a\
         \ \ \ \ \ \ \ abortOnError\ false' build.gradle
 
-MaintainerNotes: |-
-    We go back to targetSdk 25 so users can disable the foreground service (and
-    annoying notification) if they choose to.
+  - versionName: 2.5.3+fcr
+    versionCode: 330
+    commit: 2.5.3
+    gradle:
+      - conversationsFreeCompat
+    prebuild: sed -i -e 's/targetSdkVersion 28/targetSdkVersion 25/' -e '/ExtraTranslation/a\
+        \ \ \ \ \ \ \ abortOnError\ false' build.gradle
 
-AutoUpdateMode: Version %v+fcr
-UpdateCheckMode: Tags ^[0-9.]+$
-CurrentVersion: 2.5.2+fcr
-CurrentVersionCode: 329
+  - versionName: 2.5.4+fcr
+    versionCode: 333
+    commit: 2.5.4
+    gradle:
+      - conversationsFreeCompat
+    prebuild: sed -i -e 's/targetSdkVersion 28/targetSdkVersion 25/' -e '/ExtraTranslation/a\
+        \ \ \ \ \ \ \ abortOnError\ false' build.gradle
+
+  - versionName: 2.5.5+fcr
+    versionCode: 334
+    commit: 2.5.5
+    gradle:
+      - conversationsFreeCompat
+    prebuild: sed -i -e 's/targetSdkVersion 28/targetSdkVersion 25/' -e '/ExtraTranslation/a\
+        \ \ \ \ \ \ \ abortOnError\ false' build.gradle
+
+  - versionName: 2.5.6+fcr
+    versionCode: 336
+    commit: 2.5.6
+    gradle:
+      - conversationsFreeCompat
+    prebuild: sed -i -e 's/targetSdkVersion 28/targetSdkVersion 25/' -e '/ExtraTranslation/a\
+        \ \ \ \ \ \ \ abortOnError\ false' build.gradle
+
+  - versionName: 2.5.7+fcr
+    versionCode: 337
+    commit: 2.5.7
+    gradle:
+      - conversationsFreeCompat
+    prebuild: sed -i -e 's/targetSdkVersion 28/targetSdkVersion 25/' -e '/ExtraTranslation/a\
+        \ \ \ \ \ \ \ abortOnError\ false' build.gradle
+
+  - versionName: 2.5.8+fcr
+    versionCode: 338
+    commit: 2.5.8
+    gradle:
+      - conversationsFreeCompat
+    prebuild: sed -i -e 's/targetSdkVersion 28/targetSdkVersion 25/' -e '/ExtraTranslation/a\
+        \ \ \ \ \ \ \ abortOnError\ false' build.gradle
+
+  - versionName: 2.5.9+fcr
+    versionCode: 339
+    disable: issues on Xiaomi 8 and Android <5
+    commit: 2.5.9
+    gradle:
+      - conversationsFreeCompat
+    prebuild: sed -i -e 's/targetSdkVersion 28/targetSdkVersion 25/' -e '/ExtraTranslation/a\
+        \ \ \ \ \ \ \ abortOnError\ false' build.gradle
+
+  - versionName: 2.5.11+fcr
+    versionCode: 341
+    commit: 2.5.11
+    gradle:
+      - conversationsFreeCompat
+    prebuild: sed -i -e 's/targetSdkVersion 28/targetSdkVersion 25/' -e '/ExtraTranslation/a\
+        \ \ \ \ \ \ \ abortOnError\ false' build.gradle
+
+  - versionName: 2.5.12+fcr
+    versionCode: 346
+    commit: 2.5.12
+    gradle:
+      - conversationsFreeCompat
+    prebuild: sed -i -e 's/targetSdkVersion 28/targetSdkVersion 25/' -e '/ExtraTranslation/a\
+        \ \ \ \ \ \ \ abortOnError\ false' build.gradle
+
+  - versionName: 2.6.0+fcr
+    versionCode: 349
+    commit: 2.6.0
+    gradle:
+      - conversationsFreeCompat
+    prebuild: sed -i -e 's/targetSdkVersion 28/targetSdkVersion 25/' -e '/ExtraTranslation/a\
+        \ \ \ \ \ \ \ abortOnError\ false' build.gradle
+
+  - versionName: 2.6.1+fcr
+    versionCode: 351
+    commit: 2.6.1
+    gradle:
+      - conversationsFreeCompat
+    prebuild: sed -i -e 's/targetSdkVersion 28/targetSdkVersion 25/' -e '/ExtraTranslation/a\
+        \ \ \ \ \ \ \ abortOnError\ false' build.gradle
+
+  - versionName: 2.6.2+fcr
+    versionCode: 353
+    commit: 2.6.2
+    gradle:
+      - conversationsFreeCompat
+    prebuild: sed -i -e 's/targetSdkVersion 28/targetSdkVersion 25/' -e '/ExtraTranslation/a\
+        \ \ \ \ \ \ \ abortOnError\ false' build.gradle
+
+  - versionName: 2.6.3+fcr
+    versionCode: 360
+    commit: 2.6.3
+    gradle:
+      - conversationsFreeCompat
+    prebuild: sed -i -e 's/targetSdkVersion 28/targetSdkVersion 25/' -e '/ExtraTranslation/a\
+        \ \ \ \ \ \ \ abortOnError\ false' build.gradle
+
+  - versionName: 2.6.4+fcr
+    versionCode: 362
+    commit: 2.6.4
+    gradle:
+      - conversationsFreeCompat
+    prebuild: sed -i -e 's/targetSdkVersion 28/targetSdkVersion 25/' -e '/ExtraTranslation/a\
+        \ \ \ \ \ \ \ abortOnError\ false' build.gradle
+
+  - versionName: 2.7.0+fcr
+    versionCode: 364
+    commit: 2.7.0
+    gradle:
+      - conversationsFreeCompat
+    prebuild: sed -i -e 's/targetSdkVersion 28/targetSdkVersion 25/' -e '/ExtraTranslation/a\
+        \ \ \ \ \ \ \ abortOnError\ false' build.gradle
+
+  - versionName: 2.7.1+fcr
+    versionCode: 367
+    commit: 2.7.1
+    gradle:
+      - conversationsFreeCompat
+    prebuild: sed -i -e 's/targetSdkVersion 28/targetSdkVersion 25/' -e '/ExtraTranslation/a\
+        \ \ \ \ \ \ \ abortOnError\ false' build.gradle
+
+  - versionName: 2.8.1+fcr
+    versionCode: 381
+    commit: 2.8.1
+    gradle:
+      - conversationsFreeCompat
+    prebuild: sed -i -e 's/targetSdkVersion 28/targetSdkVersion 25/' -e '/ExtraTranslation/aabortOnError\
+        false' -e '/libwebrtc/d' -e "/phonenumber/aimplementation 'org.webrtc:google-webrtc:1.0.+'"
+        -e '/splits/,+5d' -e '/Variants.all/,+10d' build.gradle
+
+  - versionName: 2.8.2+fcr
+    versionCode: 382
+    commit: 2.8.2
+    gradle:
+      - conversationsFreeCompat
+    prebuild: sed -i -e 's/targetSdkVersion 28/targetSdkVersion 25/' -e '/ExtraTranslation/aabortOnError\
+        false' -e '/libwebrtc/d' -e "/phonenumber/aimplementation 'org.webrtc:google-webrtc:1.0.+'"
+        -e '/splits/,+5d' -e '/Variants.all/,+10d' build.gradle
+
+  - versionName: 2.8.3+fcr
+    versionCode: 383
+    commit: 2.8.3
+    gradle:
+      - conversationsFreeCompat
+    prebuild: sed -i -e 's/targetSdkVersion 28/targetSdkVersion 25/' -e '/ExtraTranslation/aabortOnError\
+        false' -e '/libwebrtc/d' -e "/phonenumber/aimplementation 'org.webrtc:google-webrtc:1.0.+'"
+        -e '/splits/,+5d' -e '/Variants.all/,+10d' build.gradle
+
+  - versionName: 2.8.4+fcr
+    versionCode: 387
+    commit: 2.8.4
+    gradle:
+      - conversationsFreeCompat
+    prebuild: sed -i -e '/ExtraTranslation/aabortOnError\ false' -e '/libwebrtc/d'
+        -e "/phonenumber/aimplementation 'org.webrtc:google-webrtc:1.0.30039'" -e
+        '/splits/,+5d' -e '/Variants.all/,+10d' build.gradle
+    ndk: r21b
+
+  - versionName: 2.8.5+fcr
+    versionCode: 388
+    commit: 2.8.5
+    gradle:
+      - conversationsFreeCompat
+    prebuild: sed -i -e '/ExtraTranslation/aabortOnError\ false' -e '/libwebrtc/d'
+        -e "/phonenumber/aimplementation 'org.webrtc:google-webrtc:1.0.30039'" -e
+        '/splits/,+5d' -e '/Variants.all/,+10d' build.gradle
+    ndk: r21b
+
+  - versionName: 2.8.6+fcr
+    versionCode: 390
+    commit: 2.8.6
+    gradle:
+      - conversationsFreeCompat
+    prebuild: sed -i -e '/ExtraTranslation/aabortOnError\ false' -e '/libwebrtc/d'
+        -e "/phonenumber/aimplementation 'org.webrtc:google-webrtc:1.0.30039'" -e
+        '/splits/,+5d' -e '/Variants.all/,+10d' build.gradle
+    ndk: r21b
+
+  - versionName: 2.8.7+fcr
+    versionCode: 393
+    commit: 2.8.7
+    gradle:
+      - conversationsFreeCompat
+    prebuild: sed -i -e '/ExtraTranslation/aabortOnError\ false' -e '/libwebrtc/d'
+        -e "/phonenumber/aimplementation 'org.webrtc:google-webrtc:1.0.30039'" -e
+        '/splits/,+5d' -e '/Variants.all/,+10d' build.gradle
+    ndk: r21d
+
+  - versionName: 2.8.8+fcr
+    versionCode: 394
+    commit: 2.8.8
+    gradle:
+      - conversationsFreeCompat
+    prebuild: sed -i -e '/ExtraTranslation/aabortOnError\ false' -e '/libwebrtc/d'
+        -e "/phonenumber/aimplementation 'org.webrtc:google-webrtc:1.0.30039'" -e
+        '/splits/,+5d' -e '/Variants.all/,+10d' build.gradle
+    ndk: r21d
+
+  - versionName: 2.8.9+fcr
+    versionCode: 395
+    commit: 2.8.9
+    gradle:
+      - conversationsFreeCompat
+    prebuild: sed -i -e '/ExtraTranslation/aabortOnError\ false' -e '/libwebrtc/d'
+        -e "/phonenumber/aimplementation 'org.webrtc:google-webrtc:1.0.30039'" -e
+        '/splits/,+5d' -e '/Variants.all/,+10d' build.gradle
+    ndk: r21d
+
+  - versionName: 2.8.10+fcr
+    versionCode: 397
+    commit: 2.8.10
+    gradle:
+      - conversationsFreeCompat
+    prebuild: sed -i -e '/ExtraTranslation/aabortOnError\ false' -e '/libwebrtc/d'
+        -e "/phonenumber/aimplementation 'org.webrtc:google-webrtc:1.0.30039'" -e
+        '/splits/,+5d' -e '/Variants.all/,+10d' build.gradle
+    ndk: r21d
+
+  - versionName: 2.9.0+fcr
+    versionCode: 398
+    commit: 2.9.0
+    gradle:
+      - conversationsFreeCompat
+    prebuild: sed -i -e '/ExtraTranslation/aabortOnError\ false' -e '/libwebrtc/d'
+        -e "/phonenumber/aimplementation 'org.webrtc:google-webrtc:1.0.30039'" -e
+        '/splits/,+5d' -e '/Variants.all/,+10d' build.gradle
+    ndk: r21d
+
+  - versionName: 2.9.1+fcr
+    versionCode: 401
+    commit: 2.9.1
+    gradle:
+      - conversationsFreeCompat
+    prebuild: sed -i -e '/ExtraTranslation/aabortOnError\ false' -e '/libwebrtc/d'
+        -e "/phonenumber/aimplementation 'org.webrtc:google-webrtc:1.0.30039'" -e
+        '/splits/,+5d' -e '/Variants.all/,+10d' build.gradle
+    ndk: r21d
+
+  - versionName: 2.9.2+fcr
+    versionCode: 402
+    commit: 2.9.2
+    gradle:
+      - conversationsFreeCompat
+    prebuild: sed -i -e '/ExtraTranslation/aabortOnError\ false' -e '/libwebrtc/d'
+        -e "/phonenumber/aimplementation 'org.webrtc:google-webrtc:1.0.30039'" -e
+        '/splits/,+5d' -e '/Variants.all/,+10d' build.gradle
+    ndk: r21d
+
+  - versionName: 2.9.3+fcr
+    versionCode: 403
+    commit: 2.9.3
+    gradle:
+      - conversationsFreeCompat
+    prebuild: sed -i -e '/ExtraTranslation/aabortOnError\ false' -e '/libwebrtc/d'
+        -e "/phonenumber/aimplementation 'org.webrtc:google-webrtc:1.0.30039'" -e
+        '/splits/,+5d' -e '/Variants.all/,+10d' build.gradle
+    ndk: r21d
+
+  - versionName: 2.9.4+fcr
+    versionCode: 404
+    commit: 2.9.4
+    gradle:
+      - conversationsFreeCompat
+    prebuild: sed -i -e '/ExtraTranslation/aabortOnError\ false' -e '/libwebrtc/d'
+        -e "/phonenumber/aimplementation 'org.webrtc:google-webrtc:1.0.32006'" -e
+        '/splits/,+5d' -e '/Variants.all/,+10d' build.gradle
+    ndk: r21d
+
+  - versionName: 2.9.5+fcr
+    versionCode: 405
+    commit: 2.9.5
+    gradle:
+      - conversationsFreeCompat
+    prebuild: sed -i -e '/ExtraTranslation/aabortOnError\ false' -e '/libwebrtc/d'
+        -e "/phonenumber/aimplementation 'org.webrtc:google-webrtc:1.0.32006'" -e
+        '/splits/,+5d' -e '/Variants.all/,+10d' build.gradle
+    ndk: r21d
+
+  - versionName: 2.9.6+fcr
+    versionCode: 407
+    commit: 2.9.6
+    gradle:
+      - conversationsFreeCompat
+    prebuild: sed -i -e '/ExtraTranslation/aabortOnError\ false' -e '/libwebrtc/d'
+        -e "/phonenumber/aimplementation 'org.webrtc:google-webrtc:1.0.32006'" -e
+        '/splits/,+5d' -e '/Variants.all/,+10d' build.gradle
+    ndk: r21d
+
+  - versionName: 2.9.7+fcr
+    versionCode: 42000
+    commit: 2.9.7
+    gradle:
+      - conversationsFreeCompat
+    prebuild: sed -i -e '/MissingTranslation/aabortOnError\ false' -e '/libwebrtc/d'
+        -e "/phonenumber/aimplementation 'org.webrtc:google-webrtc:1.0.32006'" -e
+        '/splits/,+5d' -e '/Variants.all/,+8d' build.gradle
+    ndk: r21d
+
+  - versionName: 2.9.8+fcr
+    versionCode: 42006
+    commit: 2.9.8
+    gradle:
+      - conversationsFreeCompat
+    prebuild: sed -i -e '/MissingTranslation/aabortOnError\ false' -e '/libwebrtc/d'
+        -e "/phonenumber/aimplementation 'org.webrtc:google-webrtc:1.0.32006'" -e
+        '/splits/,+5d' -e '/Variants.all/,+8d' build.gradle
+    ndk: r21e
+
+  - versionName: 2.9.9+fcr
+    versionCode: 42010
+    commit: 2.9.9
+    gradle:
+      - conversationsFreeCompat
+    prebuild: sed -i -e '/MissingTranslation/aabortOnError\ false' -e '/libwebrtc/d'
+        -e "/phonenumber/aimplementation 'org.webrtc:google-webrtc:1.0.32006'" -e
+        '/splits/,+5d' -e '/Variants.all/,+8d' build.gradle
+    ndk: r21e
+
+  - versionName: 2.9.10+fcr
+    versionCode: 42012
+    commit: 2.9.10
+    gradle:
+      - conversationsFreeCompat
+    prebuild: sed -i -e '/MissingTranslation/aabortOnError\ false' -e '/libwebrtc/d'
+        -e "/phonenumber/aimplementation 'org.webrtc:google-webrtc:1.0.32006'" -e
+        '/splits/,+5d' -e '/Variants.all/,+8d' build.gradle
+    ndk: r21e
+
+  - versionName: 2.9.11+fcr
+    versionCode: 42013
+    commit: 2.9.11
+    gradle:
+      - conversationsFreeCompat
+    prebuild: sed -i -e '/MissingTranslation/aabortOnError\ false' -e '/libwebrtc/d'
+        -e "/phonenumber/aimplementation 'org.webrtc:google-webrtc:1.0.32006'" -e
+        '/splits/,+5d' -e '/Variants.all/,+8d' build.gradle
+    ndk: r21e
+
+  - versionName: 2.9.12+fcr
+    versionCode: 42014
+    commit: 2.9.12
+    gradle:
+      - conversationsFreeCompat
+    prebuild: sed -i -e '/MissingTranslation/aabortOnError\ false' -e '/libwebrtc/d'
+        -e "/phonenumber/aimplementation 'org.webrtc:google-webrtc:1.0.32006'" -e
+        '/splits/,+5d' -e '/Variants.all/,+8d' build.gradle
+    ndk: r21e
+
+  - versionName: 2.9.13+fcr
+    versionCode: 42015
+    commit: 2.9.13
+    gradle:
+      - conversationsFreeCompat
+    prebuild: sed -i -e '/MissingTranslation/aabortOnError\ false' -e '/libwebrtc/d'
+        -e "/phonenumber/aimplementation 'org.webrtc:google-webrtc:1.0.32006'" -e
+        '/splits/,+5d' -e '/Variants.all/,+8d' build.gradle
+    ndk: r21e
+
+MaintainerNotes: |-
+    For 2.9.4 we replace the webrtc.aar with the latest M86 from maven, but
+    that won't be updated anymore so we'll need to start building locally in the future.
+
+AutoUpdateMode: Version ++fcr %v
+UpdateCheckMode: Tags
+CurrentVersion: 2.9.13
+CurrentVersionCode: 42015

@@ -5,6 +5,9 @@ Categories:
   - Internet
   - Default
 License: GPL-3.0-only
+AuthorName: SECUSO - Security Usability Society
+AuthorEmail: contact@secuso.org
+AuthorWebSite: https://secuso.aifb.kit.edu/english/
 WebSite: https://secuso.org/pfa
 SourceCode: https://github.com/SecUSo/privacy-friendly-weather
 IssueTracker: https://github.com/SecUSo/privacy-friendly-weather/issues
@@ -17,10 +20,10 @@ Description: |-
     Weather provides a radius search. This makes it possible to find the locations
     around a given location which have the best weather conditions at the moment.
 
-    Weather data is provided by [http://openweathermap.org/ Open Weather Map].
+    Weather data is provided by <a href="http://openweathermap.org/">Open Weather Map</a>.
 
     The app belongs to the group of Privacy Friendly Apps developed at the
-    [https://secuso.org/ SECUSO research group] of Technische Universitaet
+    <a href="https://secuso.org/">SECUSO research group</a> of Technische Universitaet
     Darmstadt. It does not require any permission and relinquishes advertisement and
     tracking mechanisms.
 
@@ -58,7 +61,35 @@ Builds:
     gradle:
       - yes
 
+  - versionName: '2.2'
+    versionCode: 7
+    commit: v2.2
+    subdir: app
+    gradle:
+      - yes
+
+  - versionName: '2.4'
+    versionCode: 9
+    commit: v2.4
+    subdir: app
+    gradle:
+      - yes
+
+  - versionName: 2.4.1
+    versionCode: 10
+    commit: v2.4.1
+    subdir: app
+    gradle:
+      - yes
+
+  - versionName: 2.4.2
+    versionCode: 11
+    commit: v2.4.2
+    subdir: app
+    gradle:
+      - yes
+
 AutoUpdateMode: Version v%v
 UpdateCheckMode: Tags
-CurrentVersion: 2.1.1
-CurrentVersionCode: 6
+CurrentVersion: 2.4.2
+CurrentVersionCode: 11
