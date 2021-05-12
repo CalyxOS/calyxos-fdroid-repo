@@ -19,36 +19,3 @@ RepoType: git
 Repo: https://github.com/guardianproject/LocationPrivacy.git
 Binaries: https://guardianproject.info/releases/LocationPrivacy-%v.apk
 
-Builds:
-  - versionName: '0.1'
-    versionCode: 10
-    disable: does not verify
-    commit: '0.1'
-    target: android-21
-
-  - versionName: '0.2'
-    versionCode: 20
-    disable: does not verify
-    commit: '0.2'
-    submodules: true
-    target: android-22
-    scanignore:
-      - external/netcipher/libnetcipher/external/pinning/res/raw/cacerts
-
-  - versionName: '0.3'
-    versionCode: 30
-    disable: does not verify
-    commit: '0.3'
-    submodules: true
-    target: android-22
-    scanignore:
-      - external/netcipher/libnetcipher/external/pinning/res/raw/cacerts
-
-  - versionName: 0.3.1
-    versionCode: 31
-    commit: 0.3.1
-    subdir: app
-    gradle:
-      - yes
-    prebuild: echo 'android.lintOptions.checkReleaseBuilds false' >> build.gradle
-
