@@ -1460,7 +1460,3 @@ Builds:
     gradle:
       - standard
 
-AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags ^v[0-9.]+-ose[0-9]*$
-CurrentVersion: 3.3.10-ose
-CurrentVersionCode: 303100003

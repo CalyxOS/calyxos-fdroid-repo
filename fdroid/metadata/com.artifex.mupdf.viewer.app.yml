@@ -167,7 +167,3 @@ MaintainerNotes: |-
     * https://mupdf.com/downloads/
     * https://twiki.ghostscript.com/do/view/MuPDF/AndroidReleases
 
-AutoUpdateMode: Version %v
-UpdateCheckMode: Tags
-CurrentVersion: 1.18.0
-CurrentVersionCode: 90

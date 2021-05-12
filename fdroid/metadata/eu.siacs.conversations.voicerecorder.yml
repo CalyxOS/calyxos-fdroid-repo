@@ -34,9 +34,5 @@ MaintainerNotes: |-
     Conversations and was only "outsourced" to keep permissions needed for the main app
     minimalistic.
 
-AutoUpdateMode: None
-UpdateCheckMode: RepoManifest
-CurrentVersion: 0.1.1
-CurrentVersionCode: 3
 
 NoSourceSince: 0.1.1

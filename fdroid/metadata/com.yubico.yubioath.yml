@@ -139,7 +139,3 @@ Builds:
       - strict
     prebuild: sed -i -e '/com.google.android.gms/d' build.gradle
 
-AutoUpdateMode: Version %v
-UpdateCheckMode: Tags ^[0-9.]+$
-CurrentVersion: 2.2.0
-CurrentVersionCode: 20199

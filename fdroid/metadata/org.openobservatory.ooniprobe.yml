@@ -366,7 +366,3 @@ Builds:
         ../build.gradle build.gradle
     ndk: r22b
 
-AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags
-CurrentVersion: 2.11.0
-CurrentVersionCode: 75

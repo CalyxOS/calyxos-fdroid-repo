@@ -401,7 +401,3 @@ Builds:
     ndk: r21d
 
 ArchivePolicy: 0 versions
-AutoUpdateMode: None
-UpdateCheckMode: None
-CurrentVersion: 10.2.0
-CurrentVersionCode: 1063

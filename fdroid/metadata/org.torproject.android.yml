@@ -944,7 +944,3 @@ MaintainerNotes: |
     * Bump CV/CVC when all builds have finished and we have tested whats possible...
 
 ArchivePolicy: 0 versions
-AutoUpdateMode: None
-UpdateCheckMode: Tags ^[^-]*$
-CurrentVersion: 15.1.2
-CurrentVersionCode: 15120000

@@ -151,7 +151,3 @@ Builds:
 
 MaintainerNotes: The "build" commands are extracted from build_deps.sh.
 
-AutoUpdateMode: Version %v
-UpdateCheckMode: Tags ^[0-9.]+$
-CurrentVersion: 1.0.5
-CurrentVersionCode: 149

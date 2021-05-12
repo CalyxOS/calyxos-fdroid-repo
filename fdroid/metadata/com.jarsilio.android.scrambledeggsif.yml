@@ -417,7 +417,3 @@ Builds:
     gradle:
       - standard
 
-AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags ^v[0-9.]+$
-CurrentVersion: 1.7.2
-CurrentVersionCode: 64

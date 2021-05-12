@@ -822,7 +822,3 @@ MaintainerNotes: |-
     the source repo:
     https://f-droid.org/docs/All_About_Descriptions_Graphics_and_Screenshots
 
-AutoUpdateMode: Version v%v
-UpdateCheckMode: Tags ^v[0-9.]+$
-CurrentVersion: 5.7.5
-CurrentVersionCode: 57500

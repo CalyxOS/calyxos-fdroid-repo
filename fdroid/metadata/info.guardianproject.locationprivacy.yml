@@ -52,7 +52,3 @@ Builds:
       - yes
     prebuild: echo 'android.lintOptions.checkReleaseBuilds false' >> build.gradle
 
-AutoUpdateMode: Version %v
-UpdateCheckMode: Tags
-CurrentVersion: 0.3.1
-CurrentVersionCode: 31

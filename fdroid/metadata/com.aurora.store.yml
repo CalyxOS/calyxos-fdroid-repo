@@ -200,7 +200,3 @@ Builds:
     gradle:
       - yes
 
-AutoUpdateMode: Version %v
-UpdateCheckMode: Tags
-CurrentVersion: 4.0.4
-CurrentVersionCode: 35
