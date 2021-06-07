@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "26c40aaa_0c4bb218",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-06-07T12:52:27Z",
+      "side": 1,
+      "message": "Need to update all other repos too eventually, but they use a local version of fdroidserver so it can wait until a calmer time.",
+      "revId": "0d365ede3813dfe65aecabe2348d1e5e7a90827b",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
