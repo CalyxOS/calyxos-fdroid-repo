@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d4b7bf19_393c301c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-06-07T12:59:57Z",
+      "side": 1,
+      "message": "Serves me right for just winging it and not looking at the actual change upstream.",
+      "revId": "2c6f547e63dc87dac3717e054973613d3f4e0998",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
