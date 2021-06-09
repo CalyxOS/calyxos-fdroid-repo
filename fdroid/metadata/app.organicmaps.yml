@@ -1,0 +1,22 @@
+Categories:
+  - Navigation
+  - Default
+License: Apache-2.0
+WebSite: https://organicmaps.app/
+SourceCode: https://github.com/organicmaps/organicmaps/tree/HEAD
+IssueTracker: https://github.com/organicmaps/organicmaps/issues
+
+Description: |-
+    Organic Maps offers fast offline maps app for travelers, tourists, hikers and cyclists based on top of crowd-sourced OpenStreetMap data and curated with love by MAPS.ME founders.
+
+    * Detailed offline maps with places that don't exist on other maps
+    * Cycling routes, hiking trails and walking paths
+    * Contour lines, elevation profiles, peaks and slopes
+    * Turn-by-turn walking, cycling and car navigation with voice guidance
+    * Fast offline search on the map and bookmarks
+    * Dark mode to protect your eyes
+    * No ads, no trackers, no data collection, no crapware, no pesticides
+
+RepoType: git
+Repo: https://github.com/organicmaps/organicmaps.git
+
