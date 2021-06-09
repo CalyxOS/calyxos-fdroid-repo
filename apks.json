@@ -88,7 +88,7 @@
     }
   },
   {
-    "name": "Organic Maps",
+    "name": "OrganicMaps",
     "baseUrl": "https://f-droid.org/repo/{ver}",
     "version": {
       "fdroid": "app.organicmaps",
