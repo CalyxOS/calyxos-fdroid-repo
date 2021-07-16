@@ -7,6 +7,9 @@ before_script:
   - echo $fdroid_keystore_base64 | base64 -d >keystore.jks
   - chmod 600 fdroid/config.py keystore.jks
   - mkdir -p fdroid/repo
+  # Temporary fdroidserver patch to not make it barf Makefiles
+  - git clone https://gitlab.com/fdroid/fdroidserver -b 2.0
+  - git -C fdroidserver apply ../0001-TEMPORARY-Revert-hashing-of-graphics-filename.patch
 
 fdroid-repo:
   stage: deploy
@@ -16,9 +19,9 @@ fdroid-repo:
   - cd fdroid
   - echo "keypass=\"$fdroid_keypass\"" >>config.py
   - echo "keystorepass=\"$fdroid_keystorepass\"" >>config.py
-  - fdroid update --pretty
+  - ../fdroidserver/fdroid update --pretty
   - rm -rf archive
-  - mkdir /fdroid && fdroid deploy
+  - mkdir /fdroid && ../fdroidserver/fdroid deploy
   - rm -rf /fdroid/archive
   - cd .. && mkdir public && mv -v /fdroid public
   artifacts:
