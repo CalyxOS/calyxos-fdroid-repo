@@ -1,1 +1,0 @@
-Conversations uygulamasında sesli iletileri kaydetmek için basit bir eklenti

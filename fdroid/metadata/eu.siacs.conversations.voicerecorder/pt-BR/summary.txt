@@ -1,1 +1,0 @@
-Um simples plug-in para gravar mensagens de voz para conversas
