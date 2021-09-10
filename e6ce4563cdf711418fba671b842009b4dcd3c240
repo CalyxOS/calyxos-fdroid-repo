@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "94ba6d29_4f38e046",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-10T10:54:23Z",
+      "side": 1,
+      "message": "Copied from the index\n\nThis is not in a fdroidserver release yet, hold.",
+      "revId": "e6ce4563cdf711418fba671b842009b4dcd3c240",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
