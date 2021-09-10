@@ -19,3 +19,4 @@ RepoType: git
 Repo: https://github.com/guardianproject/LocationPrivacy.git
 Binaries: https://guardianproject.info/releases/LocationPrivacy-%v.apk
 
+AllowedSigningKeys: f006a20481c71a690de02e385ab0c9fa4ac1245240f68102682703ba0656867a

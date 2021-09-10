@@ -21,3 +21,4 @@ Description: |-
 RepoType: git
 Repo: https://github.com/Yubico/yubioath-android.git
 
+AllowedSigningKeys: d8678c5ee2c5e8f80d5d24f664d86ef3f8ed69191489d54d66495f766a256d47

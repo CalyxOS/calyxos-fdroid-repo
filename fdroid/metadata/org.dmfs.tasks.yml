@@ -21,3 +21,4 @@ Description: |-
 RepoType: git
 Repo: https://github.com/dmfs/opentasks.git
 
+AllowedSigningKeys: 056b298fcfe8c3804b448653e8558bb473af42ceea0d9c31e94ab203f0d725e2

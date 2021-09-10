@@ -52,3 +52,4 @@ Description: |-
 RepoType: git
 Repo: https://github.com/duckduckgo/Android
 
+AllowedSigningKeys: f0707d021c0bf3e6f8dcc11ba3f5700425d597dca301a31e210556934ebb1b0a

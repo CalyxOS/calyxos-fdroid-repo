@@ -32,3 +32,4 @@ Description: |-
 RepoType: git
 Repo: https://github.com/SecUSo/privacy-friendly-weather
 
+AllowedSigningKeys: 9f518b7f34ad2a9345f9d16020eb0cfb9ca5f0e5167a1a33b7c51133fd2b2cbf
