@@ -15,3 +15,4 @@ AutoName: Scrambled Exif
 RepoType: git
 Repo: https://gitlab.com/juanitobananas/scrambled-exif.git
 
+AllowedSigningKeys: 3cdf1622c37d212be586b22928f28ccadbd7cb954f1005fce13e81850beb1d73
