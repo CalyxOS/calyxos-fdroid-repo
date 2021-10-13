@@ -142,5 +142,9 @@
       "url": "https://gitlab.torproject.org/tpo/web/tpo/-/raw/main/databags/versions.ini",
       "regex": "torbrowser-android-stable]\nversion = (.+)"
     }
+  },
+  {
+    "name": "GCamPhotosPreview",
+    "baseUrl": "https://gitlab.com/CalyxOS/calyx-fdroid-repo-apks/-/raw/main/GCamPhotosPreview/GCamPhotosPreview-common.apk"
   }
 ]
