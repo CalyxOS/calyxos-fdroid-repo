@@ -29,7 +29,7 @@ fdroid-repo:
     - public
     expire_in: 1 week
   only:
-  - master
+  - main
   - schedules
   cache:
     paths:
