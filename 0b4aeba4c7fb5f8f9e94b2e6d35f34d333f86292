@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "37468f73_3e9dacec",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-04-05T16:48:37Z",
+      "side": 1,
+      "message": "From the linked commit.\n\n\u003e Here\u0027s a brief summary of a blog post we never wrote:\n\n\u003e * All of OpenKeychain\u0027s UI is an anti-feature.\n\u003e * If the user is doing anything in OpenKeychain\u0027s UI, OpenPGP is still doing it wrong.\n\u003e * OpenKeychain shouldn\u0027t be an app, it should be a library.\n\u003e * Changing OpenKeychain into a library is more work than we are motivated to do in our free time.",
+      "revId": "0b4aeba4c7fb5f8f9e94b2e6d35f34d333f86292",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
