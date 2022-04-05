@@ -1,1 +1,0 @@
-Titkosítsa a fájljait és kommunikációját. Kompatibilis az OpenPGP szabvánnyal.
