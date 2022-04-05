@@ -72,14 +72,6 @@
     }
   },
   {
-    "name": "OpenKeychain",
-    "baseUrl": "https://f-droid.org/repo/{ver}",
-    "version": {
-      "fdroid": "org.sufficientlysecure.keychain",
-      "fingerprint": "43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB"
-    }
-  },
-  {
     "name": "OrganicMaps",
     "baseUrl": "https://f-droid.org/repo/{ver}",
     "version": {
