@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d6621410_8ebfcc30",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-04-28T17:58:18Z",
+      "side": 1,
+      "message": "Apart from what\u0027s mentioned in the commit message, this doesn\u0027t work on Android 12 due to\n\n1) Link verification, so this can\u0027t hijack Google Maps links\n2) AOSP 12 having links broken in general, which is very annoying but not fixed yet.\n\nOwing to that let\u0027s remove it for now to avoid having something non working in front of users.",
+      "revId": "77e8ca09b9f38ddf8cae766ad53e2d793087aae8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
