@@ -16,6 +16,23 @@
       "message": "Apart from what\u0027s mentioned in the commit message, this doesn\u0027t work on Android 12 due to\n\n1) Link verification, so this can\u0027t hijack Google Maps links\n2) AOSP 12 having links broken in general, which is very annoying but not fixed yet.\n\nOwing to that let\u0027s remove it for now to avoid having something non working in front of users.",
       "revId": "77e8ca09b9f38ddf8cae766ad53e2d793087aae8",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "55151d5b_2697e310",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000021
+      },
+      "writtenOn": "2022-04-29T07:40:24Z",
+      "side": 1,
+      "message": "Seems fine to remove, since some of the key features have been broken by newer versions of Android.\n\nIf you\u0027re interested, this would be quite easy to update for things like targetSdkVersion and Organic Maps.  It could also remove IntentFilters for any domains/URLs that it cannot hijack.  With a bit more work, there could be some exploration of things that could be done even with verified links.  Perhaps that really needs to happen in the OS though, or maybe that would be possible if there was \"privileged extension\" only there to handle the IntentFilters that it can\u0027t get without privs.  Should this idea be tracked in an issue?  It would be great if CalyxOS worked with all the location links. For me that was the key feature of Location Privacy: the user can choose their preferred map app, but all the location links that people send still work.",
+      "revId": "77e8ca09b9f38ddf8cae766ad53e2d793087aae8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
