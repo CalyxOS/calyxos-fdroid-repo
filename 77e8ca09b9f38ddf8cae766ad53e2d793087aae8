@@ -51,6 +51,24 @@
       "parentUuid": "55151d5b_2697e310",
       "revId": "77e8ca09b9f38ddf8cae766ad53e2d793087aae8",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "95b9f644_0a3f5ab3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-05-02T18:41:28Z",
+      "side": 1,
+      "message": "\u003e \"privileged extension\" only there to handle the IntentFilters that it can\u0027t get without privs.\n\nI\u0027d rather not do any more \u0027privileged extensions\u0027, but either way not the best time to do it because in general link detection is broken in AOSP 12 (it\u0027s fine with Play Services)\n\nDoing it directly in Organic Maps sounds great, whatever they want to include, and that way it benefits everyone using the app 😊",
+      "parentUuid": "ed08977c_5e7a6194",
+      "revId": "77e8ca09b9f38ddf8cae766ad53e2d793087aae8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
