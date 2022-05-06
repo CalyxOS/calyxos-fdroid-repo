@@ -69,6 +69,24 @@
       "parentUuid": "ed08977c_5e7a6194",
       "revId": "77e8ca09b9f38ddf8cae766ad53e2d793087aae8",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f1fa5a83_93d5e693",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000021
+      },
+      "writtenOn": "2022-05-06T06:51:42Z",
+      "side": 1,
+      "message": "I\u0027d be happy to do the link detection work on Organic Maps under my Calyx work tasks, if that\u0027s interesting to you.",
+      "parentUuid": "95b9f644_0a3f5ab3",
+      "revId": "77e8ca09b9f38ddf8cae766ad53e2d793087aae8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
