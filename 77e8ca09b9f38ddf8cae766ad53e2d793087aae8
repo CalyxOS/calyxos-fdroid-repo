@@ -87,6 +87,24 @@
       "parentUuid": "95b9f644_0a3f5ab3",
       "revId": "77e8ca09b9f38ddf8cae766ad53e2d793087aae8",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dbc1d5f8_73cc37e5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-05-06T15:48:50Z",
+      "side": 1,
+      "message": "It\u0027d be better to further discuss elsewhere, but\n\nWhile this would be good to have, right now in general link detection is broken in AOSP 12 as I mentioned above multiple times, hence it wouldn\u0027t be too useful nor easy to test for us.",
+      "parentUuid": "f1fa5a83_93d5e693",
+      "revId": "77e8ca09b9f38ddf8cae766ad53e2d793087aae8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
