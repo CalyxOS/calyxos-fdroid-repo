@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c1e4eef9_d38e7a53",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-11-16T15:51:40Z",
+      "side": 1,
+      "message": "Shipping before replacement to make CI pass.",
+      "revId": "7463bf3780802b7999e1c805eb1c30055e5d5bfa",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
