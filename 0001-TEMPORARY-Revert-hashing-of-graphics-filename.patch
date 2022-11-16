@@ -1,7 +1,7 @@
-From ec02080c2b0d4f9635b1be2c07b583d6ef2375d3 Mon Sep 17 00:00:00 2001
+From a37fc47ebd05ae5a037d9df47bdc8ad00812fc1b Mon Sep 17 00:00:00 2001
 From: Chirayu Desai <chirayudesai1@gmail.com>
 Date: Fri, 16 Jul 2021 17:06:41 +0530
-Subject: [PATCH] [TEMPORARY] Revert hashing of graphics filename
+Subject: [PATCH] Revert hashing of graphics filename
 
 * Breaks our built-into-Android copied-using-makefile F-Droid repo
   setup
@@ -12,14 +12,14 @@ Subject: [PATCH] [TEMPORARY] Revert hashing of graphics filename
 
 Issue: https://gitlab.com/CalyxOS/calyxos/-/issues/578
 ---
- fdroidserver/update.py | 13 +------------
- 1 file changed, 1 insertion(+), 12 deletions(-)
+ fdroidserver/update.py | 23 ++++++-----------------
+ 1 file changed, 6 insertions(+), 17 deletions(-)
 
 diff --git a/fdroidserver/update.py b/fdroidserver/update.py
-index afde773e42..ae8a3c1d30 100644
+index 06dd762f..5718c0ef 100644
 --- a/fdroidserver/update.py
 +++ b/fdroidserver/update.py
-@@ -1226,18 +1226,7 @@ def insert_localized_app_metadata(apps):
+@@ -1073,23 +1073,12 @@ def insert_localized_app_metadata(apps):
                  logging.warning(_('Only PNG and JPEG are supported for graphics, found: {path}').format(path=f))
              elif base in GRAPHIC_NAMES:
                  # there can only be zero or one of these per locale
@@ -29,16 +29,26 @@ index afde773e42..ae8a3c1d30 100644
 -                    if not os.path.samefile(f, basepath):
 -                        os.unlink(f)
 -                else:
--                    sha256 = sha256base64(f)
+-                    sha256 = common.sha256base64(f)
 -                    filename = base + '_' + sha256 + '.' + extension
 -                    index_file = os.path.join(os.path.dirname(f), filename)
 -                    if not os.path.exists(index_file):
 -                        os.link(f, index_file, follow_symlinks=False)
 -                    graphics[base] = filename
+-                    if base == "icon":
+-                        base = "iconv2"
+-                    if base not in apps[packageName] or not isinstance(apps[packageName][base], collections.OrderedDict):
+-                        apps[packageName][base] = collections.OrderedDict()
+-                    apps[packageName][base][locale] = index.file_entry(index_file)
 +                graphics[base] = filename
++                if base == "icon":
++                    base = "iconv2"
++                if base not in apps[packageName] or not isinstance(apps[packageName][base], collections.OrderedDict):
++                    apps[packageName][base] = collections.OrderedDict()
++                apps[packageName][base][locale] = index.file_entry(index_file)
              elif screenshotdir in SCREENSHOT_DIRS:
                  # there can any number of these per locale
                  logging.debug(_('adding to {name}: {path}').format(name=screenshotdir, path=f))
 -- 
-2.32.0
+2.38.1
 
