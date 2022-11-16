@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0670e888_cc5fe1b5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-11-16T15:34:43Z",
+      "side": 1,
+      "message": "Works but let\u0027s hold till it\u0027s needed on the server.\n\nMaybe by then we\u0027ll have a new `fdroidserver` tag",
+      "revId": "bf187cafd23c47adaec0c751731cd399be64c76c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
