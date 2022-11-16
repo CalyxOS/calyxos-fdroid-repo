@@ -8,7 +8,8 @@ before_script:
   - chmod 600 fdroid/config.py keystore.jks
   - mkdir -p fdroid/repo
   # Temporary fdroidserver patch to not make it barf Makefiles
-  - git clone https://gitlab.com/fdroid/fdroidserver -b 2.0
+  # Fetch newer version for https://gitlab.com/fdroid/fdroidserver/-/commit/1bb963d7682485ba9cfeeb7eb049a053feb10c3c
+  - git clone https://gitlab.com/fdroid/fdroidserver -b b54eb946f19ca0c4bf2c681715716b3355ea5b17
   - git -C fdroidserver apply ../0001-TEMPORARY-Revert-hashing-of-graphics-filename.patch
 
 fdroid-repo:
