@@ -5,7 +5,7 @@ variables:
 
 before_script:
   - echo $fdroid_keystore_base64 | base64 -d >keystore.jks
-  - chmod 600 keystore.jks
+  - chmod 600 config.yml keystore.jks
   - mkdir -p fdroid/repo
   - git clone https://gitlab.com/fdroid/fdroidserver
   # Use newer version for https://gitlab.com/fdroid/fdroidserver/-/commit/1bb963d7682485ba9cfeeb7eb049a053feb10c3c
