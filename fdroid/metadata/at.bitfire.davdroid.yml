@@ -17,4 +17,4 @@ AutoName: DAVx⁵
 RepoType: git
 Repo: https://gitlab.com/bitfireAT/davx5-ose.git
 
-AllowedSigningKeys: 8b48e676a6864967791783c1d8d0fc0dd6d2ce33e1fb36787793ecd086d44707
+AllowedAPKSigningKeys: 8b48e676a6864967791783c1d8d0fc0dd6d2ce33e1fb36787793ecd086d44707

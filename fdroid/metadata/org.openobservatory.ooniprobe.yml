@@ -75,4 +75,4 @@ Description: |-
 RepoType: git
 Repo: https://github.com/ooni/probe-android
 
-AllowedSigningKeys: ceb39f9f7950a5fe84dc917ad3433d146355c861f7f3294ce82d55fb8cb0c0e6
+AllowedAPKSigningKeys: ceb39f9f7950a5fe84dc917ad3433d146355c861f7f3294ce82d55fb8cb0c0e6

@@ -43,4 +43,4 @@ Description: |
  ABOUT THE TOR PROJECT
  The Tor Project, Inc., is a 501(c)(3) organization developing free and open source software for privacy and freedom online, protecting people from tracking, surveillance, and censorship. The Tor Project’s mission is to advance human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, support their unrestricted availability and use, and further their scientific and popular understanding.
 
-AllowedSigningKeys: 20061f045e737c67375c17794cfedb436a03cec6bacb7cb9f96642205ca2cec8
+AllowedAPKSigningKeys: 20061f045e737c67375c17794cfedb436a03cec6bacb7cb9f96642205ca2cec8

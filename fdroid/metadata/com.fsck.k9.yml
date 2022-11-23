@@ -20,4 +20,4 @@ Description: |-
 RepoType: git
 Repo: https://github.com/k9mail/k-9.git
 
-AllowedSigningKeys: c430665e3662253b2078dcda350c2c6ce44d915a3d8a147b63ced619bb9e8576
+AllowedAPKSigningKeys: c430665e3662253b2078dcda350c2c6ce44d915a3d8a147b63ced619bb9e8576

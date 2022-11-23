@@ -16,4 +16,4 @@ Description: |-
 RepoType: git
 Repo: git://git.ghostscript.com/mupdf-android-viewer.git
 
-AllowedSigningKeys: f7de6763f66a3c6e7b0c8b78e528cb1c1f5dd3b3b0e2859e36e49988d7fadcce
+AllowedAPKSigningKeys: f7de6763f66a3c6e7b0c8b78e528cb1c1f5dd3b3b0e2859e36e49988d7fadcce
