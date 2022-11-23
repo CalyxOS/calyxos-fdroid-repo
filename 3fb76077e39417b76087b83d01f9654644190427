@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a41a016b_dcb9db1b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-11-23T15:27:42Z",
+      "side": 1,
+      "message": "Just ran `chmod 600` on the file directly.",
+      "revId": "3fb76077e39417b76087b83d01f9654644190427",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
