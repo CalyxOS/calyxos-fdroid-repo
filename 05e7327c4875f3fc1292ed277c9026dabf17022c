@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b5871937_bbeac2c0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-11-23T15:48:48Z",
+      "side": 1,
+      "message": "Validated using https://gitlab.com/CalyxOS/calyxos-fdroid-repo/-/ci/lint",
+      "revId": "05e7327c4875f3fc1292ed277c9026dabf17022c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
