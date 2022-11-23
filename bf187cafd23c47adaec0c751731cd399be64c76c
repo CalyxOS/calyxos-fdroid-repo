@@ -16,6 +16,23 @@
       "message": "Works but let\u0027s hold till it\u0027s needed on the server.\n\nMaybe by then we\u0027ll have a new `fdroidserver` tag",
       "revId": "bf187cafd23c47adaec0c751731cd399be64c76c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "184bda49_2e732080",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-11-23T15:15:41Z",
+      "side": 1,
+      "message": "2.1 is needed for `AllowedAPKSigningKeys`, so let\u0027s just try this directly.",
+      "revId": "bf187cafd23c47adaec0c751731cd399be64c76c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
