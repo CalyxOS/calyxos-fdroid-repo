@@ -12,4 +12,4 @@ AutoName: Geometric Weather
 
 RepoType: git
 Repo: https://github.com/WangDaYeeeeee/GeometricWeather.git
-
+AllowedAPKSigningKeys: 8afcc002005c6634417f24ef4759e8d0e367c814fb7d7d7ad7f7f619f428ccea
