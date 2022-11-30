@@ -25,9 +25,17 @@
   },
   {
     "name": "DAVx5",
-   "baseUrl": "https://f-droid.org/repo/{ver}",
+    "baseUrl": "https://f-droid.org/repo/{ver}",
     "version": {
       "fdroid": "at.bitfire.davdroid",
+      "fingerprint": "43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB"
+    }
+  },
+  {
+    "name": "GeometricWeather",
+    "baseUrl": "https://f-droid.org/repo/{ver}",
+    "version": {
+      "fdroid": "wangdaye.com.geometricweather",
       "fingerprint": "43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB"
     }
   },

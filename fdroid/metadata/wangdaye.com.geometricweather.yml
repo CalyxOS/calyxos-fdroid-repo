@@ -1,0 +1,15 @@
+AntiFeatures:
+  - NonFreeNet
+Categories:
+  - Internet
+License: LGPL-3.0-only
+AuthorName: wangdaye
+SourceCode: https://github.com/WangDaYeeeeee/GeometricWeather
+IssueTracker: https://github.com/WangDaYeeeeee/GeometricWeather/issues
+Changelog: https://github.com/WangDaYeeeeee/GeometricWeather/releases
+
+AutoName: Geometric Weather
+
+RepoType: git
+Repo: https://github.com/WangDaYeeeeee/GeometricWeather.git
+
