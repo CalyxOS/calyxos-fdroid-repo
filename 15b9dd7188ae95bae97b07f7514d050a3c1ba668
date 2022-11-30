@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c8fcf49f_ab3e0217",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-11-30T21:02:06Z",
+      "side": 1,
+      "message": "14585: Remove Weather | https://review.calyxos.org/c/CalyxOS/calyxos-fdroid-repo/+/14585",
+      "revId": "15b9dd7188ae95bae97b07f7514d050a3c1ba668",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
