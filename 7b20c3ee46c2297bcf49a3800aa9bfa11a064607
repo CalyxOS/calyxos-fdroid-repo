@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "29f09187_c6953c44",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-02-08T21:09:29Z",
+      "side": 1,
+      "message": "We could (and should) just use index-v2 in download.py\n\nTODO: See if any of the other forks have switched, or just quickly do it ourselves.",
+      "revId": "7b20c3ee46c2297bcf49a3800aa9bfa11a064607",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
