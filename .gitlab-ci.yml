@@ -10,6 +10,8 @@ before_script:
   - git clone https://gitlab.com/fdroid/fdroidserver -b 2.2.0
   # Temporary fdroidserver patch to not make it barf Makefiles
   - git -C fdroidserver apply ../0001-TEMPORARY-Revert-hashing-of-graphics-filename.patch
+  # https://gitlab.com/fdroid/fdroidclient/-/merge_requests/1192
+  - sed -i 's,SHA1 denyAfter 20[0-9][0-9],SHA1 denyAfter 2024,' /usr/lib/jvm/default-java/conf/security/java.security
 
 fdroid-repo:
   stage: deploy
