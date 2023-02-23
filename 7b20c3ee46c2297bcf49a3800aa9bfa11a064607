@@ -16,6 +16,24 @@
       "message": "We could (and should) just use index-v2 in download.py\n\nTODO: See if any of the other forks have switched, or just quickly do it ourselves.",
       "revId": "7b20c3ee46c2297bcf49a3800aa9bfa11a064607",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9aaa6697_b5e88c84",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-02-23T22:58:40Z",
+      "side": 1,
+      "message": "Still needed because the method we use hardcodes `index-v1.jar`\n\nhttps://gitlab.com/fdroid/fdroidserver/-/blob/2.2.0/fdroidserver/index.py#L1478",
+      "parentUuid": "29f09187_c6953c44",
+      "revId": "7b20c3ee46c2297bcf49a3800aa9bfa11a064607",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
