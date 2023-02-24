@@ -16,6 +16,24 @@
       "message": "FYI the plan is to add `download_repo_index_v2()` and `download_repo_index_v1()`, then `download_repo_index_v2()` will use current signing algorithms.",
       "revId": "aedf2148d73b1f33d23a5840e876a3ba6d6a2b65",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "327d4950_e2734ce3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-02-24T17:01:15Z",
+      "side": 1,
+      "message": "Thanks, sounds good, will switch when available.",
+      "parentUuid": "ba241138_434852b8",
+      "revId": "aedf2148d73b1f33d23a5840e876a3ba6d6a2b65",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
