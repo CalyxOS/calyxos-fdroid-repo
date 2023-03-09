@@ -1,6 +1,7 @@
 Categories:
   - Internet
   - Default
+  - OnlineOnly
 License: GPL-3.0-only
 WebSite: https://www.signal.org
 SourceCode: https://github.com/signalapp/Signal-Android

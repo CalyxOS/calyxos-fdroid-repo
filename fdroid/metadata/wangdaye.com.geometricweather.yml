@@ -3,6 +3,7 @@ AntiFeatures:
 Categories:
   - Internet
   - Default
+  - OnlineOnly
 License: LGPL-3.0-only
 AuthorName: wangdaye
 SourceCode: https://github.com/WangDaYeeeeee/GeometricWeather
