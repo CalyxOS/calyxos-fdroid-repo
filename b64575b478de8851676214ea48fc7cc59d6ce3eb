@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f8de819b_b6658cfa",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-03-09T19:51:38Z",
+      "side": 1,
+      "message": "Just marking apps / making the list currently.\n\nThis will need more work to also not ship the apk on device.\n\nAll the apps marked need internet to work, and thus I felt it ok to require internet to install these apps.\n\nThe others either work offline, or help you get to the internet, or help you get apps.",
+      "revId": "b64575b478de8851676214ea48fc7cc59d6ce3eb",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
