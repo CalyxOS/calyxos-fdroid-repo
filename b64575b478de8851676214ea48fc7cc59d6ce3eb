@@ -16,6 +16,40 @@
       "message": "Just marking apps / making the list currently.\n\nThis will need more work to also not ship the apk on device.\n\nAll the apps marked need internet to work, and thus I felt it ok to require internet to install these apps.\n\nThe others either work offline, or help you get to the internet, or help you get apps.",
       "revId": "b64575b478de8851676214ea48fc7cc59d6ce3eb",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0b320b56_e3b3e3b1",
+        "filename": "fdroid/metadata/org.openobservatory.ooniprobe.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2023-03-10T20:35:05Z",
+      "side": 1,
+      "message": "Might also make sense to review the `Default` state of same apps.",
+      "revId": "b64575b478de8851676214ea48fc7cc59d6ce3eb",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "95e5cc1b_68e57e61",
+        "filename": "fdroid/metadata/org.thoughtcrime.securesms.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2023-03-10T20:35:05Z",
+      "side": 1,
+      "message": "Signal as well?",
+      "revId": "b64575b478de8851676214ea48fc7cc59d6ce3eb",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
