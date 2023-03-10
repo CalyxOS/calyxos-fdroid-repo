@@ -37,6 +37,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "dfdf0d9e_199c990b",
+        "filename": "fdroid/metadata/org.openobservatory.ooniprobe.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-03-10T20:38:18Z",
+      "side": 1,
+      "message": "Ack, will do in a follow up.",
+      "parentUuid": "0b320b56_e3b3e3b1",
+      "revId": "b64575b478de8851676214ea48fc7cc59d6ce3eb",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "95e5cc1b_68e57e61",
         "filename": "fdroid/metadata/org.thoughtcrime.securesms.yml",
         "patchSetId": 1
@@ -48,6 +66,24 @@
       "writtenOn": "2023-03-10T20:35:05Z",
       "side": 1,
       "message": "Signal as well?",
+      "revId": "b64575b478de8851676214ea48fc7cc59d6ce3eb",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9dcdecfa_3de02872",
+        "filename": "fdroid/metadata/org.thoughtcrime.securesms.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-03-10T20:38:18Z",
+      "side": 1,
+      "message": "I figured one might as well - it\u0027s useless without the internet. \n\nPerhaps one could argue it avoids having to download a lot of data since just text won\u0027t use much, vs say Organic Maps which has you download a big apk on first launch anyway",
+      "parentUuid": "95e5cc1b_68e57e61",
       "revId": "b64575b478de8851676214ea48fc7cc59d6ce3eb",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
