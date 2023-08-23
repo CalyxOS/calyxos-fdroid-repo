@@ -15,3 +15,4 @@ AutoName: F-Droid
 RepoType: git
 Repo: https://gitlab.com/fdroid/fdroidclient.git
 
+AllowedAPKSigningKeys: 43238d512c1e5eb2d6569f4a3afbf5523418b82e0a3ed1552770abb9a9c9ccab
