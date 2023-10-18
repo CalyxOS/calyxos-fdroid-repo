@@ -113,7 +113,7 @@ def get_version_fdroid(url, query, ignore):
   data = get_fdroid_index(url)
   for app in data['apps']:
     if app['packageName'] == query:
-      for apk in data['packages'][app['packageName']]:
+      for apk in data['packages'][app['packageName']][::-1]:
         # No idea why suggestedVersionCode is a string
         if apk['versionCode'] >= int(app['suggestedVersionCode']):
           if is_fdroid_apk_compatible(apk):
