@@ -32,10 +32,10 @@
     }
   },
   {
-    "name": "F-DroidBasic",
+    "name": "F-Droid",
     "baseUrl": "https://f-droid.org/repo/{ver}",
     "version": {
-      "fdroid": "org.fdroid.basic",
+      "fdroid": "org.fdroid.fdroid",
       "fingerprint": "43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB"
     }
   },
