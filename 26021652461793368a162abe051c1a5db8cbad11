@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c8206d0a_52548f99",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-11-27T18:00:12Z",
+      "side": 1,
+      "message": "Unfortunately this setup is a bit rigid, and we won\u0027t be able to update the repo without this revert, until [topic:fdroid.basic](https://review.calyxos.org/q/topic:fdroid.basic) is merged, but that\u0027s still work in progress.",
+      "revId": "26021652461793368a162abe051c1a5db8cbad11",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
