@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cc1abd8e_c9c2d7de",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-01-24T15:53:40Z",
+      "side": 1,
+      "message": "15933: download: Switch to downloading fdroid index v2 | https://review.calyxos.org/c/CalyxOS/calyxos-fdroid-repo/+/15933 may solve this too, once implemented.",
+      "revId": "ddf697ba23fe1373150138f933582ab77c9d9fa7",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
