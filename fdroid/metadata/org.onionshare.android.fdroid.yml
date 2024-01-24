@@ -1,0 +1,14 @@
+Categories:
+  - Internet
+  - Security
+  - Default
+License: GPL-3.0-only
+SourceCode: https://github.com/onionshare/onionshare-android
+IssueTracker: https://github.com/onionshare/onionshare-android/issues
+
+AutoName: OnionShare (beta)
+
+RepoType: git
+Repo: https://github.com/onionshare/onionshare-android
+
+AllowedAPKSigningKeys: 0def4c8a3c5b65748f37dff6dcdffcaf3e85c7809a5651435c2909fb2ba20bf6
