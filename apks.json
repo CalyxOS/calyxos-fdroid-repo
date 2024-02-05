@@ -40,14 +40,6 @@
     }
   },
   {
-    "name": "GeometricWeather",
-    "baseUrl": "https://f-droid.org/repo/{ver}",
-    "version": {
-      "fdroid": "wangdaye.com.geometricweather",
-      "fingerprint": "43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB"
-    }
-  },
-  {
     "name": "Hypatia",
     "baseUrl": "https://f-droid.org/repo/{ver}",
     "version": {
