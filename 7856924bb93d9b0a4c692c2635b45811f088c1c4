@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ff062ac0_fbb8199c",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-02-12T17:54:19Z",
+      "side": 1,
+      "message": "\u003e fdroid/repo/Orbot-17.2.1-RC-1-tor-0.4.8.7-fullperm-arm64-v8a-release.apk saved",
+      "revId": "7856924bb93d9b0a4c692c2635b45811f088c1c4",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
