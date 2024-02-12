@@ -129,10 +129,10 @@
   },
   {
     "name": "TorBrowser",
-    "baseUrl": "https://guardianproject.info/fdroid/repo/{ver}",
+    "baseUrl": "https://dist.torproject.org/torbrowser/{ver}/tor-browser-android-aarch64-{ver}.apk",
     "version": {
-      "fdroid": "org.torproject.torbrowser",
-      "fingerprint": "B7C2EEFD8DAC7806AF67DFCD92EB18126BC08312A7F2D6F3862E46013C7A6135"
+      "url": "https://gitlab.torproject.org/tpo/web/tpo/-/raw/main/databags/versions.ini",
+      "regex": "torbrowser-android-stable]\nversion = (.+)"
     }
   }
 ]
