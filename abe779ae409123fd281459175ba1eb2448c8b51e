@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d6a07541_b5f806f6",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-02-12T18:26:10Z",
+      "side": 1,
+      "message": "\u003e ‘fdroid/repo/tor-browser-android-aarch64-13.0.9.apk’ saved",
+      "revId": "abe779ae409123fd281459175ba1eb2448c8b51e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
