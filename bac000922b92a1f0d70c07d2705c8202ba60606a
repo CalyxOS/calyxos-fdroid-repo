@@ -16,6 +16,24 @@
       "message": "Wait till it\u0027s live on F-Droid, and then test.",
       "revId": "bac000922b92a1f0d70c07d2705c8202ba60606a",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f2b1cd37_ca5697e9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-04-17T09:57:14Z",
+      "side": 1,
+      "message": "It\u0027s live, app installs, works ok, good to go!",
+      "parentUuid": "c080f024_42671c4a",
+      "revId": "bac000922b92a1f0d70c07d2705c8202ba60606a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
