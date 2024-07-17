@@ -51,6 +51,24 @@
       "parentUuid": "8e73c1b0_664d6073",
       "revId": "df62a47d802aac77d74f13206c079a4c353fc8bc",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f86f95f3_20a57d24",
+        "filename": "fdroid/metadata/com.google.android.apps.photos.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2024-07-17T21:49:10Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "8e73c1b0_664d6073",
+      "revId": "df62a47d802aac77d74f13206c079a4c353fc8bc",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
