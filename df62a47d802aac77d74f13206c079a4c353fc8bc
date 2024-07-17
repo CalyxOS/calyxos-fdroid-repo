@@ -33,6 +33,24 @@
       "message": "Could reword this as this is all users would see in SetupWizard (via Lupin)",
       "revId": "df62a47d802aac77d74f13206c079a4c353fc8bc",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2c099b96_90a1d239",
+        "filename": "fdroid/metadata/com.google.android.apps.photos.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2024-07-17T21:48:55Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "8e73c1b0_664d6073",
+      "revId": "df62a47d802aac77d74f13206c079a4c353fc8bc",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
