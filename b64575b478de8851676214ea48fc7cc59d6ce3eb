@@ -53,6 +53,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c209ba82_8ac201ff",
+        "filename": "fdroid/metadata/org.openobservatory.ooniprobe.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-08-01T21:01:01Z",
+      "side": 1,
+      "message": "Let\u0027s do that separately later once this works well.",
+      "parentUuid": "dfdf0d9e_199c990b",
+      "revId": "b64575b478de8851676214ea48fc7cc59d6ce3eb",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "95e5cc1b_68e57e61",
@@ -84,6 +102,24 @@
       "side": 1,
       "message": "I figured one might as well - it\u0027s useless without the internet. \n\nPerhaps one could argue it avoids having to download a lot of data since just text won\u0027t use much, vs say Organic Maps which has you download a big apk on first launch anyway",
       "parentUuid": "95e5cc1b_68e57e61",
+      "revId": "b64575b478de8851676214ea48fc7cc59d6ce3eb",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "55b072f0_fee66e19",
+        "filename": "fdroid/metadata/org.thoughtcrime.securesms.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-08-01T21:01:01Z",
+      "side": 1,
+      "message": "Given that isn\u0027t really useful without internet, let\u0027s keep it that way to have a smaller image out of the box.",
+      "parentUuid": "9dcdecfa_3de02872",
       "revId": "b64575b478de8851676214ea48fc7cc59d6ce3eb",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
