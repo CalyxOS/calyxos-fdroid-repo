@@ -8,9 +8,6 @@ import shutil
 import subprocess
 from urllib.parse import urlsplit
 
-import fdroidserver.common
-import fdroidserver.index
-
 index = {}
 url = None
 
@@ -33,8 +30,6 @@ def main():
         ver = get_version_json(verObj["url"], verObj["json"])
       elif "regex" in verObj:
         ver = get_version_regex(verObj["url"], verObj["regex"])
-      elif "fdroid" in verObj:
-        ver = get_version_fdroid(apk["baseUrl"].format(ver="?fingerprint=" + verObj["fingerprint"]), verObj["fdroid"], ignore)
       if apk["name"] in versions and ver == versions[apk["name"]]:
         print("Using cached " + apk["name"])
         continue
@@ -76,52 +71,6 @@ def get_version_json(url, query):
   for query_part in query:
     version = version[query_part]
   return version
-
-def get_fdroid_index(new_url):
-  global index
-  global url
-  if new_url == url and index is not None:
-    return index
-  fdroidserver.common.config = {}
-  fdroidserver.common.config['jarsigner'] = shutil.which('jarsigner')
-  try:
-    print("Downloading F-Droid index from " + new_url)
-    new_index, etag = fdroidserver.index.download_repo_index(new_url)
-  except Exception as e:
-    print(e)
-    if index is not None:
-      return index
-    else:
-      raise Exception("Failed to get F-Droid index from " + new_url)
-  if new_index is not None:
-    index = new_index
-    url = new_url
-  return index
-
-def is_fdroid_apk_compatible(apk):
-  if not 'nativecode' in apk:
-    return True
-  for abi in apk['nativecode']:
-    if abi == "arm64-v8a":
-      return True
-    if abi == "armeabi-v7a":
-      return True
-    if abi == "armeabi":
-      return True
-
-def get_version_fdroid(url, query, ignore):
-  data = get_fdroid_index(url)
-  for app in data['apps']:
-    if app['packageName'] == query:
-      for apk in data['packages'][app['packageName']][::-1]:
-        # No idea why suggestedVersionCode is a string
-        if apk['versionCode'] >= int(app['suggestedVersionCode']):
-          if is_fdroid_apk_compatible(apk):
-            return apk['apkName']
-      # Fallback to first compatible apk
-      for apk in data['packages'][app['packageName']]:
-        if is_fdroid_apk_compatible(apk):
-          return apk['apkName']
 
 if __name__ == "__main__":
   main()
