@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5f103779_4b681c43",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-10-14T13:44:07Z",
+      "side": 1,
+      "message": "Unfortunately given issues with existing install it\u0027d be easier to just allowlist prebuilts/calyx/fdroid for this cycle and deal with it mid-cycle, in time for a QPR / 16.",
+      "revId": "ded134e2ed0a8888a8dab4ee997bda15338577b6",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
