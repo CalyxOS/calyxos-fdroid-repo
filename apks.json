@@ -56,14 +56,6 @@
     }
   },
   {
-    "name": "K-9Mail",
-    "baseUrl": "https://f-droid.org/repo/{ver}",
-    "version": {
-      "fdroid": "com.fsck.k9",
-      "fingerprint": "43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB"
-    }
-  },
-  {
     "name": "Nextcloud",
     "baseUrl": "https://f-droid.org/repo/{ver}",
     "version": {
@@ -108,6 +100,14 @@
     "baseUrl": "https://f-droid.org/repo/{ver}",
     "version": {
       "fdroid": "com.jarsilio.android.scrambledeggsif",
+      "fingerprint": "43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB"
+    }
+  },
+  {
+    "name": "Thunderbird",
+    "baseUrl": "https://f-droid.org/repo/{ver}",
+    "version": {
+      "fdroid": "net.thunderbird.android",
       "fingerprint": "43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB"
     }
   },
