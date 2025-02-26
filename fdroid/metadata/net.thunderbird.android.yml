@@ -1,0 +1,20 @@
+Categories:
+  - Connectivity
+  - Internet
+  - Writing
+  - Default
+License: Apache-2.0
+WebSite: https://thunderbird.net
+SourceCode: https://github.com/thunderbird/thunderbird-android
+IssueTracker: https://github.com/thunderbird/thunderbird-android/issues
+Translation: https://hosted.weblate.org/projects/tb-android/
+Changelog: https://github.com/thunderbird/thunderbird-android/releases/
+Donate: https://mzla.link/supportTfA
+
+AutoName: 'Thunderbird: Free Your Inbox'
+
+RepoType: git
+Repo: https://github.com/thunderbird/thunderbird-android.git
+Binaries: https://ftp.mozilla.org/pub/thunderbird-mobile/android/releases/%v/thunderbird-%v.apk
+
+AllowedAPKSigningKeys: b6524779b3dbbc5ac17a5ac271ddb29dcfbf723578c238e03c3c217811356dd1
