@@ -22,6 +22,30 @@
       },
       "revId": "5ee3dd66cf0dbbe4b0f4a3d443074bfb7c3972d1",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4f2e5fd8_a9bf2063",
+        "filename": "apks.json",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2026-02-25T20:41:48Z",
+      "side": 1,
+      "message": "thanks! gerrit webedit to the rescue!",
+      "parentUuid": "511b485a_5ffcefc3",
+      "range": {
+        "startLine": 35,
+        "startChar": 13,
+        "endLine": 35,
+        "endChar": 26
+      },
+      "revId": "5ee3dd66cf0dbbe4b0f4a3d443074bfb7c3972d1",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
