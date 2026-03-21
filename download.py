@@ -36,7 +36,7 @@ def main():
       elif "fdroid" in verObj:
         ver = get_version_fdroid(apk["baseUrl"].format(ver="?fingerprint=" + verObj["fingerprint"]), verObj["fdroid"], ignore)
       if apk["name"] in versions and ver == versions[apk["name"]]:
-        print("Using cached " + apk["name"])
+        print("Using cached " + apk["name"] + " version: " + ver)
         continue
       versions[apk["name"]] = ver
     print("Downloading " + apk["name"] + " " + ver)
