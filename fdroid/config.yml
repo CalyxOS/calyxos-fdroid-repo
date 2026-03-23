@@ -1,6 +1,6 @@
 ---
 repo_url: file:///product/fdroid/repo
-repo_name: CalyxOS Local Repository
+repo_name: CalyxOS Local
 repo_icon: fdroid-icon.png
 repo_description: |
   This is a repository of apps to be used with CalyxOS. It is installed
