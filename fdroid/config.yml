@@ -3,10 +3,7 @@ repo_url: file:///product/fdroid/repo
 repo_name: CalyxOS Local
 repo_icon: fdroid-icon.png
 repo_description: |
-  This is a repository of apps to be used with CalyxOS. It is installed
-  to the system partition, and meant to be used to initially install
-  apps when offline. It contains a limited number of applications deemed
-  suitable for inclusion with CalyxOS.
+  This is a repository of apps to be used with CalyxOS. It is installed to the system partition, and meant to be used to initially install apps when offline. It contains a limited number of applications deemed suitable for inclusion with CalyxOS.
 
 archive_older: 0
 
