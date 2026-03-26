@@ -29,12 +29,13 @@ def main():
       ignore = apk["ignoreErrors"]
     if "version" in apk:
       verObj = apk["version"]
+      allow_beta = apk["version"]["allowBeta"] if "allowBeta" in apk["version"] else False
       if "json" in verObj:
         ver = get_version_json(verObj["url"], verObj["json"])
       elif "regex" in verObj:
         ver = get_version_regex(verObj["url"], verObj["regex"])
       elif "fdroid" in verObj:
-        ver = get_version_fdroid(apk["baseUrl"].format(ver="?fingerprint=" + verObj["fingerprint"]), verObj["fdroid"], ignore)
+        ver = get_version_fdroid(apk["baseUrl"].format(ver="?fingerprint=" + verObj["fingerprint"]), verObj["fdroid"], allow_beta)
       if apk["name"] in versions and ver == versions[apk["name"]]:
         print("Using cached " + apk["name"] + " version: " + ver)
         continue
@@ -109,11 +110,14 @@ def is_fdroid_apk_compatible(apk):
     if abi == "armeabi":
       return True
 
-def get_version_fdroid(url, query, ignore):
+def get_version_fdroid(url, query, allow_beta):
   data = get_fdroid_index(url)
   for app in data['apps']:
     if app['packageName'] == query:
       for apk in data['packages'][app['packageName']][::-1]:
+        # if beta is allowed, pick first compatible apk below
+        if allow_beta:
+          break
         # No idea why suggestedVersionCode is a string
         if apk['versionCode'] >= int(app['suggestedVersionCode']):
           if is_fdroid_apk_compatible(apk):
@@ -122,6 +126,7 @@ def get_version_fdroid(url, query, ignore):
       for apk in data['packages'][app['packageName']]:
         if is_fdroid_apk_compatible(apk):
           return apk['apkName']
+  raise Exception(f"Failed to get version for {query}")
 
 if __name__ == "__main__":
   main()
