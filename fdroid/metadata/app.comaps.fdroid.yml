@@ -1,0 +1,16 @@
+Categories:
+  - Navigation
+License: Apache-2.0
+WebSite: https://www.comaps.app/
+SourceCode: https://codeberg.org/comaps/comaps
+IssueTracker: https://codeberg.org/comaps/comaps/issues
+Translation: https://translate.codeberg.org/projects/comaps/
+Changelog: https://codeberg.org/comaps/comaps/releases
+Donate: https://www.comaps.app/donate/
+Liberapay: CoMaps
+OpenCollective: comaps
+
+RepoType: git
+Repo: https://codeberg.org/comaps/comaps.git
+
+AllowedAPKSigningKeys: ca5180daacf1f26a18f98ff4bce2d62bbaaa39361c998b2267ced1bc0d2f932b
