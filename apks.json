@@ -88,19 +88,19 @@
     }
   },
   {
-    "name": "Orbot",
-    "baseUrl": "https://github.com/guardianproject/orbot/releases/download/{ver}/Orbot-{ver}-fullperm-arm64-v8a-release.apk",
-    "version": {
-      "url": "https://api.github.com/repos/guardianproject/orbot/releases/latest",
-      "json": "tag_name"
-    }
-  },
-  {
     "name": "TorBrowser",
     "baseUrl": "https://dist.torproject.org/torbrowser/{ver}/tor-browser-android-aarch64-{ver}.apk",
     "version": {
       "url": "https://gitlab.torproject.org/tpo/web/tpo/-/raw/main/databags/versions.ini",
       "regex": "torbrowser-android-stable]\nversion = (.+)"
+    }
+  },
+  {
+    "name": "TorVPN",
+    "baseUrl": "https://f-droid.org/repo/{ver}",
+    "version": {
+      "fdroid": "org.torproject.vpn",
+      "fingerprint": "43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB"
     }
   },
   {

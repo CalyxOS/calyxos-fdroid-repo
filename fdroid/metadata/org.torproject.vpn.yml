@@ -1,0 +1,17 @@
+Categories:
+  - VPN & Proxy
+License: BSD-3-Clause-Clear
+WebSite: https://www.torproject.org/
+SourceCode: https://gitlab.torproject.org/tpo/applications/vpn/
+IssueTracker: https://gitlab.torproject.org/tpo/applications/vpn/-/issues/
+Translation: https://hosted.weblate.org/projects/tor/tor-vpn/
+Changelog: https://gitlab.torproject.org/tpo/applications/vpn/-/blob/HEAD/CHANGELOG.md
+Donate: https://donate.torproject.org/
+Bitcoin: bc1qtt04zfgjxg7lpqhk9vk8hnmnwf88ucwww5arsd
+
+AutoName: Tor VPN
+
+RepoType: git
+Repo: https://gitlab.torproject.org/tpo/applications/vpn.git
+
+AllowedAPKSigningKeys: c2f6ffa30e56a7c53a226248ef908612ee539df2f52bede5a55037425b83331d
