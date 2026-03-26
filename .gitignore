@@ -1,5 +1,8 @@
 keys/
 fdroid/repo/
+fdroid/tmp/
 cache/versions.json
 builds/
 fdroidserver/
+.idea/
+keystore.jks
