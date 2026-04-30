@@ -22,7 +22,8 @@ fdroid-repo:
   - echo keypass:' '$fdroid_keypass >>config.yml
   - echo keystorepass:' '$fdroid_keystorepass >>config.yml
   - ../fdroidserver/fdroid update --pretty
-  - rm -rf repo/diff
+  - rm tmp/repo_*.json
+  - rm -rf repo/diff || true
   - rm -rf archive
   - mkdir /fdroid && ../fdroidserver/fdroid deploy
   - rm -rf /fdroid/archive
