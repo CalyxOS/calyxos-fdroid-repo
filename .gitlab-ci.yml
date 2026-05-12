@@ -23,6 +23,8 @@ fdroid-repo:
   - rm tmp/repo_*.json
   - rm -rf repo/diff || true
   - rm -rf archive
+  - rm repo/index.jar repo/index.xml repo/index-v1.json
+  - rm -rf repo/status
   - mkdir /fdroid && ../fdroidserver/fdroid deploy
   - rm -rf /fdroid/archive
   - cd .. && mkdir public && mv -v /fdroid public
