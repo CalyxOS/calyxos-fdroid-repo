@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import hashlib
 import json
 import os
 import re
@@ -58,7 +59,14 @@ def download(name, download_url, ignore):
     #  os.rename("fdroid/repo/" + name, "fdroid/repo/" + os.path.split(urlsplit(download_url).path)[-1])
     retcode = subprocess.call(["wget", "--progress=dot:mega", "-N", "-P", "fdroid/repo", download_url])
     if retcode == 0:
-      os.rename("fdroid/repo/" + os.path.split(urlsplit(download_url).path)[-1], "fdroid/repo/" + name)
+      download_file = "fdroid/repo/" + os.path.split(urlsplit(download_url).path)[-1]
+      target_file = "fdroid/repo/" + name
+      if os.path.isfile(target_file) and sha256sum(download_file) == sha256sum(target_file):
+        print(f"Downloaded file matches existing {target_file}; skipping replace")
+        os.remove(download_file)
+      else:
+        print(f"Replacing {target_file} with {download_file}")
+        os.replace(download_file, target_file)
   else:
     retcode = subprocess.call(["wget", "--progress=dot:mega", "-nc", "--content-disposition", "-P", "fdroid/repo", download_url])
   if not ignore and retcode != 0:
@@ -127,6 +135,17 @@ def get_version_fdroid(url, query, allow_beta):
         if is_fdroid_apk_compatible(apk):
           return apk['apkName']
   raise Exception(f"Failed to get version for {query}")
+
+
+def sha256sum(file_path):
+    hash_obj = hashlib.sha256()
+    with open(file_path, "rb") as file:
+        while True:
+            chunk = file.read(1024 * 1024)
+            if not chunk:
+                break
+            hash_obj.update(chunk)
+    return hash_obj.hexdigest()
 
 if __name__ == "__main__":
   main()
