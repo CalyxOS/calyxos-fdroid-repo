@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ff98105f_1e4edab8",
+        "filename": ".gitlab-ci.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-05-14T10:18:04Z",
+      "side": 0,
+      "message": "This is still needed.",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 12,
+        "endChar": 89
+      },
+      "revId": "ab3586c8833721dcdb0b0363ddbdd56a789bd809",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
