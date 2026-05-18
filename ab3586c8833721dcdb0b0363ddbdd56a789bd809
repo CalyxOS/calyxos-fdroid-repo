@@ -22,6 +22,30 @@
       },
       "revId": "ab3586c8833721dcdb0b0363ddbdd56a789bd809",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "97cd8449_0641032d",
+        "filename": ".gitlab-ci.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2026-05-18T18:54:37Z",
+      "side": 0,
+      "message": "I added it back in latest change. Test repo: https://gitlab.com/CalyxOS/calyxos-fdroid-repo/-/jobs/14428671783",
+      "parentUuid": "ff98105f_1e4edab8",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 12,
+        "endChar": 89
+      },
+      "revId": "ab3586c8833721dcdb0b0363ddbdd56a789bd809",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
