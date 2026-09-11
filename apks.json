@@ -92,8 +92,8 @@
     "name": "TorBrowser",
     "baseUrl": "https://dist.torproject.org/torbrowser/{ver}/tor-browser-android-aarch64-{ver}.apk",
     "version": {
-      "url": "https://gitlab.torproject.org/tpo/web/tpo/-/raw/main/databags/versions.ini",
-      "regex": "torbrowser-android-stable]\nversion = (.+)"
+      "url": "https://gitlab.torproject.org/tpo/web/marble/download/-/raw/main/databags/versions.ini",
+      "regex": "\\[tor-browser\\][^[]*android\\s*=\\s*(\\S+)"
     }
   },
   {
