@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4847f8c6_275511cb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2026-09-11T20:53:19Z",
+      "side": 1,
+      "message": "CI updates of this repo are currently failing, because Tor removed the old file we were using.",
+      "revId": "9ceee74c58d07000a793d18ec6d0615a7d9fbacf",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
