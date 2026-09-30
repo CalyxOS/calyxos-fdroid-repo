@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f9944711_43459c4f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2026-09-30T14:29:11Z",
+      "side": 1,
+      "message": "this is breaking CI again, they made their gitlab require login, so we need the official location",
+      "revId": "ebfdd56a66812491e37902f736f1164dcb824c2a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
